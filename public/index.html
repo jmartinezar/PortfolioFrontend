@@ -4,179 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Martínez - Portfolio</title>
-    <link rel="stylesheet" href="../styles/button/button.css">
-    <link rel="stylesheet" href="../styles/background/bg.css">
+    <link rel="stylesheet" href="../styles/etc.css">
+    <link rel="stylesheet" href="../styles/bg.css">
+    <link rel="stylesheet" href="../styles/hero.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <!--<link rel="stylesheet" href="../styles/contact-section.css">-->
+    <link rel="stylesheet" href="../styles/project-section.css">
+    <link rel="stylesheet" href="../styles/section.css">
     <style>
-        /* CSS Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-        /* Global Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #ffffff;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header Styles */
-        header {
-            background-color: #17001d;
-            color: white;
-            padding: 1rem;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #3498db;
-        }
-
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('coding-bg.jpg');
-            background-size: cover;
-            color: white;
-            margin-top: 60px;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        /* Sections Common Styles */
-        section {
-            padding: 5rem 0;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        /* About Section */
-        .about-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            align-items: center;
-        }
-
-        /* Skills Section */
-        .skills-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .skill {
-            background: white;
-            padding: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        /* Projects Section */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .project-card {
-            background: white;
-            border-radius: 5px;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .project-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .project-info {
-            padding: 1.5rem;
-        }
-
-        /* Contact Section */
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-
-            .about-content {
-                grid-template-columns: 1fr;
-            }
         }
     </style>
 </head>
@@ -189,7 +30,7 @@
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <!--<a href="#contact">Contact</a>-->
             </div>
         </nav>
     </header>
@@ -200,7 +41,7 @@
         <div class="bg bg3"></div>
         <div class="container">
             <h1>Juan Martínez</h1>
-            <p>Full Stack Developer & Data analyst</p>
+            <p>Developer & Data analyst</p>
             <form action="https://www.github.com/jmartinezar/" method="get">
                 <button type="submit" formaction="https://www.github.com/jmartinezar/">
                     <span class="transition"></span>
@@ -269,6 +110,7 @@
         </div>
     </section>
 
+    <!--
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
@@ -286,7 +128,7 @@
             </form>
         </div>
     </section>
-
+    -->
     <footer>
         <div class="container">
             <p>&copy; 2025 Juan Martínez.</p>
